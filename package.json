@@ -1,0 +1,33 @@
+{
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "description": "Projet Cypress Gherkin",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/JvlienG/GC_Cyp#readme",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JvlienG/GC_Cyp.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/JvlienG/GC_Cyp/issues"
+  },
+
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/cucumber/stepDefinitions"
+  }
+
+}
