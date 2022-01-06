@@ -1,0 +1,50 @@
+{
+  "uid" : "31ca7400efe281f",
+  "name" : "user logout",
+  "fullName" : "LogoutFeature.user logout",
+  "historyId" : "2c2b41b0a5ae510470247dfd50c83f96",
+  "time" : {
+    "start" : 1641469200996,
+    "stop" : 1641469207674,
+    "duration" : 6678
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LogoutFeature"
+  }, {
+    "name" : "testClass",
+    "value" : "LogoutFeature"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logout"
+  }, {
+    "name" : "package",
+    "value" : "LogoutFeature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31ca7400efe281f.json",
+  "parameterValues" : [ ]
+}

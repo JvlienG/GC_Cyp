@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 06 12:39:38 CET 2022","Thu Jan 06 12:39:43 CET 2022","4968","","Login feature","","Login feature","user logged with valid input (example #1)","user logged with valid input (example #1)",""
+"passed","Thu Jan 06 12:40:00 CET 2022","Thu Jan 06 12:40:07 CET 2022","6678","","LogoutFeature","","LogoutFeature","user logout","user logout",""

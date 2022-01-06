@@ -1,0 +1,50 @@
+{
+  "uid" : "4213c4bcbacb8697",
+  "name" : "user logged with valid input (example #1)",
+  "fullName" : "Login feature.user logged with valid input (example #1)",
+  "historyId" : "ff8ae6f7c638e6448439d4fab3e70806",
+  "time" : {
+    "start" : 1641468422022,
+    "stop" : 1641468456608,
+    "duration" : 34586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: `cy.readFile(\"cypress/fixtures/Donnees.json\")` failed because the file does not exist at the following path:\n                \n                `/Users/julien/Documents/ZENITY_/CYPRESS/cypress/fixtures/Donnees.json`\n                \n                https://on.cypress.io/readfile",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: `cy.readFile(\"cypress/fixtures/Donnees.json\")` failed because the file does not exist at the following path:\n                \n                `/Users/julien/Documents/ZENITY_/CYPRESS/cypress/fixtures/Donnees.json`\n                \n                https://on.cypress.io/readfile\n                    at LoginPage.login (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:312:10)\n                    at Context.eval (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:389:13)\n                    at Context.resolveAndRunStepDefinition (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:16773:29)\n                    at Context.eval (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:16094:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logged with valid input (example #1)"
+  }, {
+    "name" : "package",
+    "value" : "Login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4213c4bcbacb8697.json",
+  "parameterValues" : [ ]
+}

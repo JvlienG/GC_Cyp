@@ -1,6 +1,6 @@
 {
   "projectId": "samd9f",
-  "baseUrl": "https://www.deepl.com/",
+  "baseUrl": "https://www.gamecash.fr",
   "defaultCommandTimeout": 10000,
   "retries": {
     "runMode": 2,
@@ -13,5 +13,6 @@
   "viewportWidth": 1000,
   "screenshotsFolder": "target/screenshots",
   "videosFolder": "target/videos",
-  "downloadsFolder": "target/downloads"
+  "downloadsFolder": "target/downloads",
+  "reporter": "mocha-allure-reporter"
 }

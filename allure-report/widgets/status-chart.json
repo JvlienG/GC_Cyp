@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e0b3fcfd658e98e4",
+  "name" : "user logged with valid input (example #1)",
+  "time" : {
+    "start" : 1641469178121,
+    "stop" : 1641469183089,
+    "duration" : 4968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31ca7400efe281f",
+  "name" : "user logout",
+  "time" : {
+    "start" : 1641469200996,
+    "stop" : 1641469207674,
+    "duration" : 6678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

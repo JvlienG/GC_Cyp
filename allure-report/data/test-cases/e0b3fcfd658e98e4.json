@@ -1,0 +1,84 @@
+{
+  "uid" : "e0b3fcfd658e98e4",
+  "name" : "user logged with valid input (example #1)",
+  "fullName" : "Login feature.user logged with valid input (example #1)",
+  "historyId" : "ff8ae6f7c638e6448439d4fab3e70806",
+  "time" : {
+    "start" : 1641469178121,
+    "stop" : 1641469183089,
+    "duration" : 4968
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logged with valid input (example #1)"
+  }, {
+    "name" : "package",
+    "value" : "Login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5dc93fe80c089e3c",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: expected '<div.content>' to be 'visible'\n                \n                This element `<div.content>` is not visible because its parent `<div#blockPopUp>` has CSS property: `display: none`",
+      "time" : {
+        "start" : 1641468602837,
+        "stop" : 1641468642127,
+        "duration" : 39290
+      }
+    }, {
+      "uid" : "4213c4bcbacb8697",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: `cy.readFile(\"cypress/fixtures/Donnees.json\")` failed because the file does not exist at the following path:\n                \n                `/Users/julien/Documents/ZENITY_/CYPRESS/cypress/fixtures/Donnees.json`\n                \n                https://on.cypress.io/readfile",
+      "time" : {
+        "start" : 1641468422022,
+        "stop" : 1641468456608,
+        "duration" : 34586
+      }
+    }, {
+      "uid" : "79343407077bfec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641467856378,
+        "stop" : 1641467861180,
+        "duration" : 4802
+      }
+    }, {
+      "uid" : "8c6af2bad13b9558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641199526611,
+        "stop" : 1641199531319,
+        "duration" : 4708
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0b3fcfd658e98e4.json",
+  "parameterValues" : [ ]
+}

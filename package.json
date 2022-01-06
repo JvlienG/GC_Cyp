@@ -6,9 +6,20 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/JvlienG/GC_Cyp#readme",
-
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "allure:open": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "allure:clear": "if [ -f \"allure-results\" ]; then rmdir /q /s allure-results; fi && if [ -f \"allure-report\" ]; then rmdir /q /s allure-report; fi && if [ -f \"cypress/screenshots\" ]; then rmdir /q /s cypress/screenshots; fi && if [ -f \"cypress/videos\" ]; then rmdir /q /s cypress/videos; fi",
+  
+    "feature:login": "npx cypress run --spec cypress/integration/Mon_projet/cucumberFeatures/login.feature",
+    "feature:logout": "npx cypress run --spec cypress/integration/Mon_projet/cucumberFeatures/logout.feature",
+    "feature:newAccount":"npx cypress run --spec cypress/integration/Mon_projet/cucumberFeatures/newAccount.feature",
+    "feature:search":"npx cypress run --spec cypress/integration/Mon_projet/cucumberFeatures/search.feature",
+    
+
+    "Test:run": "npm run allure:clear; npm run feature:login; npm run feature:logout; npm run allure:open"
   },
 
   "repository": {
@@ -21,13 +32,19 @@
   },
 
   "devDependencies": {
+    "allure-commandline": "^2.17.2",
     "cypress": "^9.1.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mocha-allure-reporter": "^1.4.0"
   },
 
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
     "stepDefinitions": "cypress/cucumber/stepDefinitions"
-  }
+  },
 
+  "dependencies": {
+    "cypress-real-events": "^1.6.0",
+    "xlsx": "^0.17.4"
+  }
 }

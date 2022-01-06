@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Login feature",
+    "children" : [ {
+      "name" : "user logged with valid input (example #1)",
+      "uid" : "e0b3fcfd658e98e4",
+      "parentUid" : "ef655446e231641d707dd853ef7e179f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641469178121,
+        "stop" : 1641469183089,
+        "duration" : 4968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ef655446e231641d707dd853ef7e179f"
+  }, {
+    "name" : "LogoutFeature",
+    "children" : [ {
+      "name" : "user logout",
+      "uid" : "31ca7400efe281f",
+      "parentUid" : "4db67ac5c57f8cebae09e67571dfe9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641469200996,
+        "stop" : 1641469207674,
+        "duration" : 6678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4db67ac5c57f8cebae09e67571dfe9a5"
+  } ],
+  "name" : "packages"
+}

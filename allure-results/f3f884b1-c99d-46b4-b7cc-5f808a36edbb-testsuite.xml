@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641468422011' stop='1641468456647'>
+    <name>Login feature</name>
+    <title>Login feature</title>
+    <test-cases>
+        <test-case start='1641468422022' status='failed' stop='1641468456608'>
+            <name>user logged with valid input (example #1)</name>
+            <title>user logged with valid input (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 10000ms: `cy.readFile("cypress/fixtures/Donnees.json")` failed because the file does not exist at the following path:
+                
+                `/Users/julien/Documents/ZENITY_/CYPRESS/cypress/fixtures/Donnees.json`
+                
+                https://on.cypress.io/readfile</message>
+                <stack-trace>AssertionError: Timed out retrying after 10000ms: `cy.readFile("cypress/fixtures/Donnees.json")` failed because the file does not exist at the following path:
+                
+                `/Users/julien/Documents/ZENITY_/CYPRESS/cypress/fixtures/Donnees.json`
+                
+                https://on.cypress.io/readfile
+                    at LoginPage.login (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:312:10)
+                    at Context.eval (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:389:13)
+                    at Context.resolveAndRunStepDefinition (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:16773:29)
+                    at Context.eval (https://www.gamecash.fr/__cypress/tests?p=cypress/integration/Mon_projet/cucumberFeatures/login.feature:16094:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
